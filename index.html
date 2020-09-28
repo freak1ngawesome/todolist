@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <div class="menu">
+      <div class="menu_title">ToDo List</div>
+      <div class="menu_icons">
+        <i class="fa fa-calendar-plus-o" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="main">
+      <ul class="main_list">
+        <!-- <li class="main_item default-item">
+          Тут пока ничего нет!
+        </li> -->
+        <!-- <li class="main_item">
+          <div class="item_label"></div>
+          <div class="item_text"></div>
+          <i class="fa fa-times item_close" aria-hidden="true"></i>
+        </li> -->
+      </ul>
+    </div>
+  </div>
+  <div class="popup">
+    <div class="popup_content">
+      <div class="popup_title">Новая задача</div>
+      <input type="text" class="popup_label" placeholder="Название задачи" required>
+      <input type="text" class="popup_text" required>
+      <input type="submit" value="Записать" class="popup_add">
+      <i class="fa fa-times popup_close" aria-hidden="true"></i>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
